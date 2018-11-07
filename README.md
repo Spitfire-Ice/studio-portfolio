@@ -1,2 +1,2 @@
 # project_studio-portfolio
-studio-portfolio-template 
+project_studio-portfolio

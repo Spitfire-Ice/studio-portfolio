@@ -1,0 +1,56 @@
+header {
+  width: 100%;
+  min-height: 100vh;
+  background: url("../img/background_ret-res.jpg") no-repeat center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.header_content {
+  width: 100%;
+  height: 100%;
+  margin: auto 0;
+  padding-top: 150px;
+  h2 {
+    display: inline-block;
+    font-family: Oswald;
+    font-weight: bold;
+    font-size: 72px;
+    color: rgba(255,255,255, 1);
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-color: yellow;
+    background: rgba(34, 175, 191, 0.3);
+    margin-left: 50%;
+    transform: translateX(-50%);
+  }
+  p {
+    margin-top: 10px;
+    font-family: Lora;
+    font-style: italic;
+    font-size: 28px;
+    color: #ffffff;
+    text-align: center;
+  }
+}
+.button-scroll {
+  width: 180px;
+  height: 50px;
+  margin: 50px auto;
+  background: rgba(34, 175, 191, 0.5);
+  color: #ffffff;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 50px;
+  font-size: 25px;
+  font-family: Oswald;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 5px;
+  letter-spacing: 5px;
+}
+.button-scroll:hover p{
+  transform: scale(1.1,1.1);
+}
